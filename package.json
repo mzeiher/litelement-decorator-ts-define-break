@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "start": "rollup -c && http-static"
+  },
   "dependencies": {
     "lit-element": "^2.2.1",
     "tslib": "^1.10.0"
@@ -11,6 +14,7 @@
     "rollup": "^1.27.2",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-typescript": "^1.0.1",
-    "typescript": "^3.8.0-dev.20191119"
+    "typescript": "^3.8.0-dev.20191119",
+    "http-static": "0.1.1"
   }
 }
